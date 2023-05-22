@@ -1983,6 +1983,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-direction:column;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
@@ -1995,13 +1996,13 @@ input, select, textarea {
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
+			width: 100%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
 
 			.features section:nth-child(-n + 2) {
-				border-top-width: 0;
+				border-top-width: 1;
 			}
 
 			.features section:nth-child(2n) {
