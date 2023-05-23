@@ -12,7 +12,7 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>UFLP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -41,8 +41,13 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Optimization In The Domain Of Facility Location Problem</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+                            <p>We examined a Genetic Algorithm (GA) implementation for solving a basic Uncapacitated Facility Location
+                                Problem. Throughout the testing phase, we conducted experiments using different parameters with multiple
+                                OR Library datasets. Our findings suggest that rank-based selection and uniform crossover yielded the most
+                                favorable results.
+                                </p>
+							<!-- <p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
+							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p> -->
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -60,7 +65,7 @@
 							scale: 1.00,
 							scaleMobile: 1.00,
 							color: 0xb39f9f,
-  backgroundColor: 0x332750,
+  backgroundColor: 0xc0c1b,
 							maxDistance: 16.00
 						})
 						</script>
@@ -88,8 +93,10 @@
 							<a href="#" class="image"><img src="images/pic01.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Generation Graph</h2>
+									<p>In the above results table, we see the average computational time, the implemented GA algorithm needed to
+                                        reach the optimal solution, in the 100 executions for each dataset.
+                                        </p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -100,8 +107,10 @@
 							
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Computational Time Graph</h2>
+									<p>From results table, we see the average computational time, the implemented GA algorithm needed to
+                                        reach the optimal solution, in the 100 executions for each dataset.
+                                        </p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -116,7 +125,7 @@
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>One get the plan for the best individual using bestIndividualPlan method which returns a list of assigned facility indices to customers. (e.g. if the returned plan is [0 1 2 1 2] it means the first customer is connected to facility 0, second and forth customers are connected to facility 1 and finally third and fifth customers are connected to facility with index 2).</p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
@@ -176,8 +185,8 @@ if __name__ == '__main__':
 								</section>
 								
 								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
+									<span class="icon solid major fa-code"></span>
+									<h3>UFLPGeneticProblem.py</h3>
 									<pre>
 										
 										<code style="height:500px;overflow: scroll;-webkit-scrollbar-scrollbar:2px">import numpy as np
@@ -434,7 +443,7 @@ class UFLPGeneticProblem:
 						<div class="inner">
 							
 							  <h2 style="text-align:center">Our Team</h2>
-							  <div class="row">
+							  <div class="row" style="text-align:center">
 								<div class="column">
 								  <div class="card">
 									<img src="images/team4.png" alt="Jane" style="width:50%">
